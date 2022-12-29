@@ -1,0 +1,13 @@
+.movie {
+  display: grid;
+  /* grid-template-columns: 5fr 5fr; */
+  /* grid-template-columns: 500px 1fr; */
+  grid-template-columns: repeat(auto-fill, minmax(40%, auto));
+  justify-items: center;
+  /* align-items: stretch; */
+  gap: 10rem;
+}
+
+.loading {
+  color: black;
+}
